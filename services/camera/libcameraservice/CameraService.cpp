@@ -2872,6 +2872,7 @@ String16 CameraService::BasicClient::getPackageName() const {
 
 bool CameraService::BasicClient::isFaceUnlockPackage() const {
     std::string cpn = String8(mClientPackageName).string();
+<<<<<<< HEAD
     return cpn.compare("org.pixelexperience.faceunlock") == 0;
 }
 
